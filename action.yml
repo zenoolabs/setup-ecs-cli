@@ -4,7 +4,7 @@ inputs:
   version: # id of input
     description: "The ecs-cli version to download (if necessary) and use. Example: v1.18.0"
     required: true
-    default: "v1.18.0"
+    default: "v1.21.0"
 runs:
-  using: "node12"
+  using: "node16"
   main: "dist/index.js"
